@@ -38,6 +38,7 @@ namespace ElectionParser
             options.AddArgument("ignore-certificate-errors");
             options.AddArguments("disable-infobars");
             options.AddArguments("--incognito");
+            //options.AddArgument("--headless");
             //options.Proxy = proxy;
 
             chromedriver = new ChromeDriver(options);
